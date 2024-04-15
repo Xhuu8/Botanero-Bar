@@ -22,8 +22,7 @@
                     </div>
 
                     <div class="mb-3 row">
-                        <label for="description" class="col-md-4 col-form-label text-md-end text-start">Product
-                            Description</label>
+                        <label for="description" class="col-md-4 col-form-label text-md-end text-start">Product Description</label>
                         <div class="col-md-6">
                             <textarea class="form-control @error('description') is-invalid @enderror" id="description"
                                 wire:model="description"></textarea>

@@ -1,5 +1,5 @@
 
-<div class="mt-3 row justify-content-center">
+<div class="p-2 m-3 row justify-content-center">
     <div class="col-md-12">
 
         @if (session()->has('message'))
